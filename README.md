@@ -2,7 +2,9 @@
 
 [![Build Status](https://secure.travis-ci.org/johnotander/media-query-types.png?branch=master)](https://travis-ci.org/johnotander/media-query-types)
 
-List of all CSS media query types specified by the W3C
+List of all CSS media query types specified by the W3C.
+
+<http://www.w3.org/TR/CSS21/media.html>.
 
 ## Installation
 
@@ -12,8 +14,11 @@ npm install --save media-query-types
 
 ## Usage
 
-```bash
-// ...
+```javascript
+var mediaQueryTypes = require('media-query-types');
+
+mediaQueryTypes();
+// => ['all', 'braille', 'embossed', 'handheld', 'print', 'projection', 'screen', 'speech', 'tty', 'tv']
 ```
 
 ## License

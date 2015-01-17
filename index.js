@@ -1,7 +1,16 @@
 'use strict';
 
-module.exports = function mediaQueryTypes(options) {
-  options = options || {};
-
-  return true;
+module.exports = function mediaQueryTypes() {
+  return [
+    'all',
+    'braille',
+    'embossed',
+    'handheld',
+    'print',
+    'projection',
+    'screen',
+    'speech',
+    'tty',
+    'tv'
+  ];
 }
