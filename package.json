@@ -1,0 +1,29 @@
+{
+  "name": "media-query-types",
+  "description": "List of all CSS media query types specified by the W3C",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/media-query-types.git"
+  },
+  "keywords": [
+
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/media-query-types/issues"
+  },
+  "homepage": "https://github.com/johnotander/media-query-types",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
