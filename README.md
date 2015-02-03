@@ -18,7 +18,16 @@ npm install --save media-query-types
 var mediaQueryTypes = require('media-query-types');
 
 mediaQueryTypes();
-// => ['all', 'braille', 'embossed', 'handheld', 'print', 'projection', 'screen', 'speech', 'tty', 'tv']
+// => [
+//   'all', 'braille', 'embossed', 'handheld', 'print', 'projection', 'screen',
+//   'speech', 'tty', 'tv'
+// ]
+
+mediaQueryTypes({ css4: true });
+// => [
+//   'all', 'braille', 'embossed', 'handheld', 'print', 'projection', 'screen',
+//   'speech', 'tty', 'tv', 'pointer', 'hover', 'block-overflow'
+// ]
 ```
 
 ## License
