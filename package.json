@@ -28,6 +28,6 @@
   "homepage": "https://github.com/johnotander/media-query-types",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "ava": "^0.2.0"
   }
 }
