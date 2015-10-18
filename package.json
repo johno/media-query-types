@@ -1,12 +1,12 @@
 {
   "name": "media-query-types",
+  "version": "1.0.0",
   "description": "List of all CSS media query types specified by the W3C",
   "author": {
     "name": "John Otander",
     "email": "johnotander@gmail.com",
     "url": "johnotander.com"
   },
-  "version": "0.1.0",
   "main": "index.js",
   "files": [
     "index.js"
